@@ -1,67 +1,49 @@
-# End-To-End Data Analysis Project 📊
+## Project Overview
+This project demonstrates a complete **end-to-end data analytics workflow** focused on enhancing **Customer Experience (CX)**. It begins with **data extraction from a SQL database**, followed by **data cleaning and transformation in Python**, and culminates in the creation of **interactive Power BI dashboards** that uncover actionable business insights.
 
-## Snapshots
-
-| Dashboard 1 - Shipping & Review | Dashboard 2 - Customer Analysis |
-|-------------------------------|-------------------------------|
-| ![Shipping & Review](./Page1.png) | ![Customer Analysis](./Page2.png) |
-
----
-
-## Overview
-This project represents a complete **end-to-end data analysis** pipeline. It starts from **loading the dataset from a SQL database**, performing **data cleaning and preprocessing in Python**, and finally building **interactive dashboards using Power BI** to derive insights.
-
-The dataset includes customer and sales-related information and helps to answer business questions such as:
-- Customer distribution by shipping type
-- Total orders per customer
-- Discounts and review ratings
-- And more
+The dataset contains customer and sales data, enabling exploration of key CX metrics such as:
+- Preferred shipping methods across customer segments
+- Order frequency and distribution
+- Impact of discounts on customer satisfaction
+- Review and rating trends
 
 ---
 
----
+## Tools & Technologies Used
 
-## Tools & Technologies
-- **SQL Server / MySQL**: For storing and managing data.
-- **Python**: Data extraction, cleaning, transformation.
-- **Pandas, NumPy**: For data preprocessing.
-- **Power BI**: For building visual dashboards and reports.
-- **GitHub**: For version control and project hosting.
-
----
-
-## Steps Followed
-
-1. **Data Extraction from SQL Database**
-   - Connected to the database using Python (`pyodbc` or `sqlalchemy`)
-   - Extracted required tables for analysis
-
-2. **Data Cleaning with Python**
-   - Checked and handled missing values
-   - Converted data types
-   - Renamed columns for clarity
-   - Created new calculated columns where needed
-
-3. **Exploratory Data Analysis (EDA)**
-   - Identified patterns and anomalies
-   - Prepared visuals to understand customer behavior
-
-4. **Power BI Dashboard Creation**
-   - Built interactive dashboards including:
-     - Pie charts
-     - Bar charts
-     - Tables
-     - Filters and slicers
-   - Highlighted:
-     - Shipping Type preferences
-     - Customer order patterns
-     - Review and rating distributions
-     - Discount patterns
+| Tool | Purpose |
+|------|---------|
+| **SQL Server / MySQL** | Data storage and retrieval |
+| **Python** | Data cleaning and transformation |
+| **Pandas, NumPy** | Preprocessing and feature engineering |
+| **Power BI** | Dashboard creation and visualization |
+| **GitHub** | Version control and project documentation |
 
 ---
 
+## Workflow Breakdown
 
+### 1. Data Extraction
+- Connected to SQL database using Python (`pyodbc` / `sqlalchemy`)
+- Retrieved relevant tables for analysis
 
+### 2. Data Cleaning & Preparation
+- Handled missing values and inconsistent formats
+- Standardized column names and data types
+- Engineered new features for deeper insights
 
+### 3. Exploratory Data Analysis (EDA)
+- Identified trends, outliers, and behavioral patterns
+- Used visual summaries to guide dashboard design
 
+### 4. Dashboard Development in Power BI
+- Created dynamic visuals including:
+  - Pie charts, bar graphs, tables
+  - Interactive filters and slicers
+- Key insights visualized:
+  - Shipping preferences by customer type
+  - Order volume and frequency
+  - Review score distributions
+  - Discount usage and satisfaction impact
 
+---
