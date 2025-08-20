@@ -13,7 +13,7 @@ The dataset contains customer and sales data, enabling exploration of key CX met
 
 | Tool | Purpose |
 |------|---------|
-| **SQL Server / MySQL** | Data storage and retrieval |
+| **MySQL** | Data storage and retrieval |
 | **Python** | Data cleaning and transformation |
 | **Pandas, NumPy** | Preprocessing and feature engineering |
 | **Power BI** | Dashboard creation and visualization |
